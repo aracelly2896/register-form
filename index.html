@@ -22,33 +22,17 @@
           <label for="tipodedocumento">Tipo de documento</label>
           <select id="tipodedocumento" name="tipodedocumento">
             <option value="0"> </option>
-            <option value="1">Cédula de ciudadania</option>
-            <option value="2">Tarjeta de identidad</option>
-            <option value="3">Tarjeta de residencia</option>
-            <option value="4">Pasaporte</option>
-
-           function validarEntero(valor){
-             valor = parseInt(valor)
-              if (isNan(valor)){
-                return = False
-              }else{
-                return = valor
-              }
-           }
-
-
-
-            <module.exports= checkNumDocumento;>
-            
-            </module.exports>
- 
+            <option value="CC">Cédula de ciudadania</option>
+            <option value="TI">Tarjeta de identidad</option>
+            <option value="TR">Tarjeta de residencia</option>
+            <option value="PP">Pasaporte</option>
           </select>
         </div>
         <div>
           <div class="input-group">
             <label for="numerodedocumento">Número de documento</label>
             <input
-              type="text"
+              type="number"
               id="numerodedocumento"
               name="numerodedocumento"
             />
